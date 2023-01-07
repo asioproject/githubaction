@@ -5,5 +5,5 @@ jobs:
   run-shell-command:
     runs-on: ubuntu-latest
     steps:
-      - name: Echo a String
-        run: echo "Hello You are Master Github Actions"
+      - name: Ping test
+        run: ping www.google.com
